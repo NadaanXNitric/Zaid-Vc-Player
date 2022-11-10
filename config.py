@@ -33,12 +33,12 @@ if str(getenv("STRING_SESSION5")).strip() == "":
 else:
     SESSION5 = str(getenv("STRING_SESSION5"))
 
-BOT_TOKEN = getenv("BOT_TOKEN", "5667133619:AAFrLCBrk4onFnF6z79XeeGRdYKMTBIMw-o")
+BOT_TOKEN = getenv("BOT_TOKEN", "")
 BOT_NAME = getenv("BOT_NAME", "Naughty Hotty Bot")
 
 API_ID = int(getenv("API_ID", "24462644"))
 API_HASH = getenv("API_HASH", "a3aa265c72d66c9db291edf151fe195b")
-MONGO_DB_URL = getenv("MONGO_DB_URL", "mongodb+srv://NaughtyHotty:NaughtyHotty@cluster0.lfxgke6.mongodb.net/?retryWrites=true&w=majority")
+MONGO_DB_URL = getenv("MONGO_DB_URL", "")
 OWNER_NAME = getenv("OWNER_NAME", "Nikhil")
 OWNER_USERNAME = getenv("OWNER_USERNAME", "XeD_Nik")
 ALIVE_NAME = getenv("ALIVE_NAME", "Nik")
